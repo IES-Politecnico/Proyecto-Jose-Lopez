@@ -1,0 +1,38 @@
+table {
+
+    width: 25%;
+    
+    border-collapse: collapse;
+    
+    
+    
+    }
+    
+    
+    td {
+    
+    border: 1px solid black;
+    
+    text-align: center;
+    
+    }
+#Clasificaciones_1 {
+    background-color: burlywood;
+    text-align: center;
+}
+#Clasificaciones_2 {
+    background-color: burlywood
+}
+#Ultimascarreras_1 {
+    background-color: coral;
+    text-align: center;
+}
+#Ultimascarreras_2 {
+    background-color: coral;
+}
+#PilotosEspañoles_1 {
+    background-color: darkgoldenrod
+}
+#PilotosEspañoles_2 {
+    background-color: darkgoldenrod;
+}
