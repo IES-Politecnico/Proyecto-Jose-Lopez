@@ -16,23 +16,18 @@ table {
     text-align: center;
     
     }
-#Clasificaciones_1 {
+#Clasificaciones {
     background-color: burlywood;
     text-align: center;
 }
-#Clasificaciones_2 {
-    background-color: burlywood
-}
-#Ultimascarreras_1 {
-    background-color: coral;
+#Bahrein {
+    background-color: khaki;
     text-align: center;
 }
-#Ultimascarreras_2 {
-    background-color: coral;
+#Españoles {
+    background-color: lightgreen;
 }
-#PilotosEspañoles_1 {
-    background-color: darkgoldenrod
-}
-#PilotosEspañoles_2 {
-    background-color: darkgoldenrod;
+#Footer {
+    background-color: rgb(0, 255, 255);
+    text-align: center;
 }

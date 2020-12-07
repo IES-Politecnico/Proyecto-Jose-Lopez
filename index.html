@@ -1,48 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="joseloopezguillen2003@gmail.com"/>
-    <meta name="robots" content="all"/>
-    <meta name="description" content="Pagina sobre F1: Ultima hora sobre el mundo de la F1"/>
-    <meta name="keywords" content="Mercedes,Ferrari,Red bull,Mclaren,Racing Point,Haas,Alfa romeo,Williams,Aplha Tauri,Renault"/>
+    <meta name="author" content="joseloopezguillen2003@gmail.com" />
+    <meta name="robots" content="all" />
+    <meta name="description" content="Pagina sobre F1: Ultima hora sobre el mundo de la F1" />
+    <meta name="keywords"
+        content="Mercedes,Ferrari,Red bull,Mclaren,Racing Point,Haas,Alfa romeo,Williams,Aplha Tauri,Renault" />
     <title>Esto es la F1</title>
-    <link rel ="shortcut icon" href="Icon/f1.png">
+    <link rel="shortcut icon" href="Icon/f1.png">
     <link rel="stylesheet" href="css/estilogeneral.css">
 </head>
+
 <body style="text-align:center;">
-<h1>Pagina sobre la F1 </h1>
-<img src="Imagenes/Portada.jpg" alt="Portada">
-<div id="Clasificaciones_1">
-    <a href="./Articles/clasificaciondepilotos.html"><h2>Clasificacion de Pilotos 2020/2021</h2></a>
-    <img src="./Imagenes/pilots.jpg" alt="Pilotos" width="700">
-   <a href="./Articles/clasificaciondepilotos.html">VER CLASIFICACION</a>
-</div>
-<div id="Ultimascarreras_1">
-    <a href="./Articles/noticiabahrein.html"><h2>Previo Carrera Bahrein</h2></a>
-    <img src="./Imagenes/CircuitodeBahrein.jpg" alt="Circuito" width="700">
-   <a href="./Articles/noticiabahrein.html">VER NOTICIA</a>
-</div>
-<div id="PilotosEspañoles_1">
-    <a href="./Articles/noticiaalonso.html"><h2>Alonso crea su equipo de Karting</h2></a>
-    <img src="./Imagenes/KartsAlonso.jpg" alt="Alonso" width="700">
-   <a href="./Articles/noticiaalonso.html">VER NOTICIA</a> 
-</div>
-<div id="Clasificaciones_2">
-    <a href="./Articles/clasificaciondeconstructores.html"><h2>Clasificacion de Constructores 2020/2021</h2></a>
-    <img src="./Imagenes/todoscoches.jpg" alt="Coches" width="700">
-   <a href="./Articles/clasificaciondeconstructores.html">VER CLASIFICACION</a>
-</div>
-<div id="Ultimascarreras_2">
-    <a href="./Articles/carrerabahrein.html"><h2>Carrera de Bahrein</h2></a>
-    <img src="./Imagenes/salidagp.jpg" alt="salida" width="700">
-    <a href="./Articles/carrerabahrein.html">VER NOTICIA</a>
-</div>
-<div id="PilotosEspañoles_2">
-    <a href="./Articles/carlossainz.html"><h2>Carrera Carlos Sainz en Bahrein</h2></a>
-    <img src="./Imagenes/carlos2.jpg" alt="Carlos" width="700">
-    <a href="./Articles/carlossainz.html">VER NOTICIA</a>
-</div>
+    <header>
+        <h1>Pagina sobre la F1 </h1>
+        <picture>
+            <source media="(max-width: 799px)" srcset="./Imagenes/Portada-responsive.jpg">
+            <source media="(min-width: 800px)" srcset="./Imagenes/Portada.jpg">
+            <img src="./Imagenes/Portada.jpg" alt="Portada">
+        </picture>
+        <nav>
+            <a href="#Clasificaciones">
+                <img src="./Botones/Boton-clasi.png" alt="Boton clasificaciones">
+            </a>
+            <a href="#Bahrein">
+                <img src="./Botones/Boton-bahrein.png" alt="Boton Bahrein">
+            </a>
+            <a href="#Españoles">
+                <img src="./Botones/Boton-españoles.png" alt="Pilotos españoles">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section id="Clasificaciones">
+            <article>
+                <div id="Clasificaciones_1">
+                    <a href="./Articles/clasificaciondepilotos.html">
+                        <h2>Clasificacion de Pilotos 2020/2021</h2>
+                    </a>
+                    <p>Aqui podras ver una tabla con los 5 primeros pilotos del mundial.<a
+                            href="./Articles/clasificaciondepilotos.html"><small>LEER MAS</small></a></p>
+                    <a href="./Articles/clasificaciondepilotos.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./Imagenes/pilots-responsive.jpg">
+                            <source media="(min-width: 800px)" srcset="./Imagenes/pilots.jpg">
+                            <img src="./Imagenes/pilots.jpg" alt="Pilotos">
+                        </picture>
+                    </a>
+                    <a href="./Articles/clasificaciondepilotos.html">VER CLASIFICACION</a>
+                </div>
+            </article>
+            <article>
+                <div id="Clasificaciones_2">
+                    <a href="./Articles/clasificaciondeconstructores.html">
+                        <h2>Clasificacion de Constructores 2020/2021</h2>
+                    </a>
+                    <p>En esta tabla se muestra los 5 primero equipos del campeonato.<a
+                            href="./Articles/clasificaciondeconstructores.html"><small>LEER MAS</small></a></p>
+                    <a href="./Articles/clasificaciondeconstructores.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./Imagenes/todoscoches-responsive.jpg">
+                            <source media="(min-width: 800px)" srcset="./Imagenes/todoscoches.jpg">
+                            <img src="./Imagenes/todoscoches.jpg" alt="Coches">
+                        </picture>
+                    </a>
+                    <a href="./Articles/clasificaciondeconstructores.html">VER CLASIFICACION</a>
+                </div>
+            </article>
+        </section>
+        <section id="Bahrein">
+            <article>
+                <div id="Ultimascarreras_1">
+                    <a href="./Articles/noticiabahrein.html">
+                        <h2>Previo Carrera Bahrein</h2>
+                    </a>
+                    <p>El proximo fin de semana se celebrara un gran premio en bahrein<a
+                            href="./Articles/noticiabahrein.html"><small>LEER MAS</small></a></p>
+                    <a href="./Articles/noticiabahrein.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./Imagenes/CircuitodeBahrein-responsive.jpg">
+                            <source media="(min-width: 800px)" srcset="./Imagenes/CircuitodeBahrein.jpg">
+                            <img src="./Imagenes/CircuitodeBahrein.jpg" alt="Circuito">
+                        </picture>
+                    </a>
+                    <a href="./Articles/noticiabahrein.html">VER NOTICIA</a>
+                </div>
+            </article>
+            <article>
+                <div id="Ultimascarreras_2">
+                    <a href="./Articles/carrerabahrein.html">
+                        <h2>Carrera de Bahrein</h2>
+                    </a>
+                    <p>Este domingo se celebro el gran premio de bahrein.<a
+                            href="./Articles/carrerabahrein.html"><small>LEER MAS</small></a></p>
+                    <a href="./Articles/carrerabahrein.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./Imagenes/salidagp-responsive.jpg">
+                            <source media="(min-width: 800px)" srcset="./Imagenes/salidagp.jpg">
+                            <img src="./Imagenes/salidagp.jpg" alt="Salida">
+                        </picture>
+                    </a>
+                    <a href="./Articles/carrerabahrein.html">VER NOTICIA</a>
+                </div>
+            </article>
+        </section>
+        <section id="Españoles">
+            <article>
+                <div id="PilotosEspañoles_1">
+                    <a href="./Articles/noticiaalonso.html">
+                        <h2>Alonso crea su equipo de Karting</h2>
+                    </a>
+                    <p>Fernando alonso ha empezado en el mundo del karting.<a
+                            href="./Articles/noticiaalonso.html"><small>LEER MAS</small></a></p>
+                    <a href="./Articles/noticiaalonso.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./Imagenes/KartsAlonso-responsive.jpg">
+                            <source media="(min-width: 800px)" srcset="./Imagenes/KartsAlonso.jpg">
+                            <img src="./Imagenes/KartsAlonso.jpg" alt="Karts Alonso">
+                        </picture>
+                    </a>
+                    <a href="./Articles/noticiaalonso.html">VER NOTICIA</a>
+                </div>
+            </article>
+            <article>
+                <div id="PilotosEspañoles_2">
+                    <a href="./Articles/carlossainz.html">
+                        <h2>Carrera Carlos Sainz en Bahrein</h2>
+                    </a>
+                    <p>Resumen de la carrera de Carlos Sainz<a href="./Articles/carlossainz.html"><small>LEER
+                                MAS</small></a></p>
+                    <a href="./Articles/carlossainz.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./Imagenes/carlos2-responsive.jpg">
+                            <source media="(min-width: 800px)" srcset="./Imagenes/carlos2.jpg">
+                            <img src="./Imagenes/carlos2.jpg" alt="Carlos">
+                        </picture>
+                    </a>
+                    <a href="./Articles/carlossainz.html">VER NOTICIA</a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer id="Footer">
+        Alumno= Jose López Guillén<br>
+        Asignatura: TIC II<br>
+        Curso:2020/2021<br>
+        <br>
+        <a href="https://www.instagram.com/jl_160903/">
+            <img src="./Icon/instagram.png" alt="Icono instagram" width="50">
+        </a>
+        <a href="https://twitter.com/jlopez160903">
+            <img src="./Icon/twitter.png" alt="Icono twitter" width="50">
+        </a>
+        <a href="https://www.youtube.com/watch?v=lKZKdCRWduQ&ab_channel=Alejandrolagema997">
+            <img src="./Icon/youtube.png" alt="Icono youtube" width="50">
+        </a>
+    </footer>
 </body>
+
 </html>
