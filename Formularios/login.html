@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="joseloopezguillen2003@gmail.com"/>
+    <meta name="robots" content="all"/>
+    <meta name="description" content="Pagina sobre F1: Ultima hora sobre el mundo de la F1"/>
+    <meta name="keywords" content="Mercedes,Ferrari,Red bull,Mclaren,Racing Point,Haas,Alfa romeo,Williams,Aplha Tauri,Renault"/>
+    <title>Esto es la F1</title>
+    <link rel ="shortcut icon" href="../Icon/f1.png">
+    <link rel="stylesheet" href="../css/estilogeneral.css">
+    <style>
+        .oculto {
+            display: none;
+        }
+
+        .visible {
+            display: inline;
+        }
+    </style>
+    <script src="../javascript.js" type="text/javascript"></script>
+    <script src="../javascrip2.js" type="text/javascript"></script>
+</head>
+<body>
+    <form method="GET" action="#" name="for.login" id="form.login">
+        <fieldset>
+            <legend>Login</legend>
+            <p>Usuario <input type="text" name="usuario"></p>
+            <p>Contraseña <input type="password" name="contraseña"></p>
+            <a href="./bienvenido.html"><input type="button" value="login"></a>
+        </fieldset>
+    </form>
+    <form action="#" method="GET" name="for.registro" id="form.registro" class="oculto">
+        <fieldset>
+            <legend>Registro</legend>
+            <p>Nombre de usuario <input type="text" name="nom.usuario" required minlength="6"></p>
+            <p>Contraseña <input type="password" name="contr.1" id="contr1" required minlength="8"></p>
+            <p>Repita la contraseña <input type="password" name="contr.2" id="contr2" required minlength="8"><span id="resu1" style="color: green;"></span><span id="resu2" style="color: red;"></span></p>
+            <p>E-mail <input type="email" name="correo"></p>
+            <p>Telefono <input type="tel" name="num.tel"></p>
+            <p>Fecha de nacimiento <input type="date" name="fecha.nac"></p>
+            <p>Pagina Web <input type="url" name="pag.web"></p>
+            <input type="button" value="enviar" name="bot.enviar"  action="#" onclick="verificacion()">
+            <input type="reset" value="borrar" name="borrar.form">
+        </fieldset>
+    </form>
+    <p><input type="button" value="Login" id="Login" class="oculto" onclick="login()"></p>
+    <p><input type="button" value="Register" id="Register" class="visible" onclick="registro()"></p>
+</body>
+</html>
